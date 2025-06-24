@@ -17,3 +17,6 @@ wheels/
 
 # Logs directory
 logs/continuos_logs.log
+
+# Model artifacts at each stage
+artifacts/
