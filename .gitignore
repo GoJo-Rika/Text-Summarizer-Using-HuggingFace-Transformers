@@ -14,3 +14,6 @@ wheels/
 
 # System-generated files
 .DS_Store
+
+# Logs directory
+logs/continuos_logs.log
