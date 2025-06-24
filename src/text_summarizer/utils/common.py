@@ -1,4 +1,5 @@
 from pathlib import Path
+from typing import List
 
 import yaml
 from box import ConfigBox
@@ -36,7 +37,7 @@ def read_yaml(path_to_yaml: Path) -> ConfigBox:
 
 
 @ensure_annotations
-def create_directories(path_to_directories: list, *, verbose: bool = True) -> None:
+def create_directories(path_to_directories: list, verbose: bool=True):
     """
     Create list of directories.
 
